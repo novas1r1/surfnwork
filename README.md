@@ -1,6 +1,6 @@
 # surfnwork
 
-> My travel experiences
+> Our travel experiences
 
 ## Build Setup
 
