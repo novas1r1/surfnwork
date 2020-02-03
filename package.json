@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.js start",
+    "start": "nuxt start",
     "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build",
     "test": "jest"
   },
   "dependencies": {
