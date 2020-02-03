@@ -1,6 +1,6 @@
 # surfnwork
 
-> Our travel experiences
+> Ourheroku logs --tailnuxt travel experiences
 
 ## Build Setup
 
