@@ -67,8 +67,8 @@ export default {
             ['bold', 'italic', 'underline', 'strike'],
             ['blockquote', 'code-block'],
             ['image']
-          ],
-          imageResize: true
+          ]
+          // imageResize: true
         }
       },
       editedPost: this.post

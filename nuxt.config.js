@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-import axios from 'axios';
 
 export default {
   mode: 'universal',
@@ -56,14 +55,17 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxt/typescript-build'],
+  buildModules: [],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/axios'
   ],
+  axios: {
+  },
   /*
    ** Build configuration
    */
